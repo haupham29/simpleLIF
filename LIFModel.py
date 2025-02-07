@@ -154,7 +154,7 @@ duration = 30
 threshold = 1.0
 v_reset = 0.0
 optional_input = 0.0
-
+#####################################
 ##test 1st way of simulating network
 weight_in_hid = weights[0]
 weight_hid_out = weights[1]
@@ -172,3 +172,6 @@ print("----------------")
 #test 2nd way of simulating network
 layers, last_layer_spike, first_layer_spike = simulate_network2(neurons, weights, input_current, miu, dt, duration, threshold, v_reset, optional_input)
 print(first_layer_spike)
+
+
+##giving same results
